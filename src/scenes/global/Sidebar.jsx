@@ -51,10 +51,10 @@ const Sidebar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#2AAA8A !important",
+          color: "#02786D !important",
         },
         "& .pro-menu-item.active": {
-          color: "#2AAA8A !important",
+          color: "#02786D !important",
         },
       }}
     >
@@ -80,7 +80,7 @@ const Sidebar = () => {
                   alt="logo"
                   width="40px"
                   height="40x"
-                  src={`../../assets/wg_logo.png`}
+                  src={`../../assets/WG-DarkGreen.png`}
                   style={{ cursor: "pointer"}}
                   backgroundColor="#2AAA8A"
                   
@@ -105,14 +105,14 @@ const Sidebar = () => {
               </Box>
               <Box textAlign="center">
                 <Typography
-                  variant="h4"
+                  variant="h5"
                   color={colors.grey[100]}
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
                   Liam Gosnell
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
+                <Typography variant="h6" color={colors.grey[100]}>
                   Web Developer
                 </Typography>
               </Box>
